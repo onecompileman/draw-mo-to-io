@@ -1,0 +1,55 @@
+@import '~src/assets/scss/config';
+@import '~src/assets/scss/theme-config';
+.#{$style-prefix}-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  &__exclamation {
+    font-size: 7vw;
+    font-weight: 800;
+    @media screen and (min-width: 1200px) {
+      font-size: 80px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 40px;
+    }
+  }
+  &__body {
+    width: 70%;
+    max-width: 600px;
+    min-width: 340px;
+    min-height: 300px;
+    background-color: $light;
+    box-shadow: 8px 8px $dark;
+    margin-top: 50px;
+  }
+  &__header {
+    background-color: $danger;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+  }
+  &__title-container {
+    color: $light;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    text-shadow: 4px 4px $dark;
+    text-transform: uppercase;
+    margin-top: 50px;
+    @media screen and (min-width: 1200px) {
+      font-size: 60px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 30px;
+    }
+  }
+}

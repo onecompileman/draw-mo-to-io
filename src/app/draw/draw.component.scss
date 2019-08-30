@@ -1,0 +1,8 @@
+@import '~src/assets/scss/config';
+@import '~src/assets/scss/theme-config';
+.#{$style-prefix}-draw {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/assets/img/background.jpg');
+  background-size: cover;
+}

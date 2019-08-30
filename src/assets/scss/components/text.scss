@@ -1,0 +1,28 @@
+@import '~src/assets/scss/theme-config';
+.primary {
+  color: $primary;
+}
+
+.primary-inverse {
+  color: $primary-inverse;
+}
+
+.danger {
+  color: $danger;
+}
+
+.warning {
+  color: $warning;
+}
+
+.success {
+  color: $success;
+}
+
+.info {
+  color: $info;
+}
+
+.light {
+  color: $light;
+}
